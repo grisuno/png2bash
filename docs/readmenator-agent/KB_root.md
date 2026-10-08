@@ -1,0 +1,91 @@
+# Subsystem: root
+
+## app.py
+- Doc: Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]com Fecha de creación...
+- Layer: utility
+- Language: py
+- Symbols:
+  - `image_to_bash` (function, line 27) `def image_to_bash(image_path, image_res)`
+  - `list_png_files` (function, line 44) `def list_png_files()`
+  - `main` (function, line 54) `def main()`
+- Depends on: `utils.py`
+
+## install.sh
+- Layer: utility
+- Language: sh
+
+## utils.py
+- Doc: Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]com Fecha de creación...
+- Layer: utility
+- Language: py
+- Symbols:
+  - `parse_ip_mac` (function, line 128) `def parse_ip_mac(input_string)`
+  - `create_arp_packet` (function, line 149) `def create_arp_packet(src_mac, src_ip, dst_ip, dst_mac)`
+  - `send_packet` (function, line 186) `def send_packet(packet, iface)`
+  - `load_version` (function, line 203) `def load_version()`
+  - `print_error` (function, line 224) `def print_error(error)`
+  - `print_msg` (function, line 239) `def print_msg(msg)`
+  - `print_warn` (function, line 255) `def print_warn(warn)`
+  - `signal_handler` (function, line 271) `def signal_handler(sig, frame)`
+  - `check_rhost` (function, line 298) `def check_rhost(rhost)`
+  - `check_lhost` (function, line 320) `def check_lhost(lhost)`
+  - `check_lport` (function, line 342) `def check_lport(lport)`
+  - `is_binary_present` (function, line 364) `def is_binary_present(binary_name)`
+  - `handle_multiple_rhosts` (function, line 381) `def handle_multiple_rhosts(func)`
+  - `check_sudo` (function, line 415) `def check_sudo()`
+  - `activate_virtualenv` (function, line 435) `def activate_virtualenv(venv_path)`
+  - `parse_proc_net_file` (function, line 460) `def parse_proc_net_file(file_path)`
+  - `get_open_ports` (function, line 504) `def get_open_ports()`
+  - `find_credentials` (function, line 523) `def find_credentials(directory)`
+  - `rotate_char` (function, line 555) `def rotate_char(c, shift)`
+  - `get_network_info` (function, line 576) `def get_network_info()`
+  - `getprompt` (function, line 608) `def getprompt()`
+  - `copy2clip` (function, line 644) `def copy2clip(text)`
+  - `clean_output` (function, line 663) `def clean_output(output)`
+  - `teclado_usuario` (function, line 675) `def teclado_usuario(filename)`
+  - `salida_strace` (function, line 712) `def salida_strace(filename)`
+  - `exploitalert` (function, line 748) `def exploitalert(content)`
+  - `packetstormsecurity` (function, line 791) `def packetstormsecurity(content)`
+  - `nvddb` (function, line 833) `def nvddb(content)`
+  - `find_ss` (function, line 876) `def find_ss(keyword)`
+  - `find_ea` (function, line 901) `def find_ea(keyword)`
+  - `find_ps` (function, line 928) `def find_ps(keyword)`
+  - `xor_encrypt_decrypt` (function, line 952) `def xor_encrypt_decrypt(data, key)`
+  - `run` (function, line 977) `def run(command)`
+  - `is_exist` (function, line 1019) `def is_exist(file)`
+  - `get_domain` (function, line 1047) `def get_domain(url)`
+  - `generate_certificates` (function, line 1063) `def generate_certificates()`
+  - `generate_emails` (function, line 1106) `def generate_emails(full_name, domain)`
+  - `clean_url` (function, line 1164) `def clean_url(host)`
+  - `random_string` (function, line 1170) `def random_string(length)`
+  - `generate_http_req` (function, line 1175) `def generate_http_req(host, port, uri, custom_header, cmd)`
+  - `format_openssh_key` (function, line 1202) `def format_openssh_key(raw_key)`
+  - `format_rsa_key` (function, line 1233) `def format_rsa_key(raw_key)`
+  - `is_package_installed` (function, line 1263) `def is_package_installed(package_name)`
+  - `extract` (function, line 1273) `def extract(string, extract_flag)`
+  - `clean_html` (function, line 1296) `def clean_html(html_string)`
+  - `run_command` (function, line 1309) `def run_command(command)`
+  - `generate_random_cve_id` (function, line 1357) `def generate_random_cve_id()`
+  - `get_credentials` (function, line 1372) `def get_credentials(file)`
+  - `obfuscate_payload` (function, line 1411) `def obfuscate_payload(payload)`
+  - `read_payloads` (function, line 1435) `def read_payloads(file_path)`
+  - `inject_payloads` (function, line 1456) `def inject_payloads(urls, payload_url, request_timeout)`
+  - `prompt` (function, line 1544) `def prompt(label, default)`
+  - `is_lower` (function, line 1551) `def is_lower(char)`
+  - `is_upper` (function, line 1564) `def is_upper(char)`
+  - `is_mixed` (function, line 1577) `def is_mixed(s)`
+  - `add` (function, line 1590) `def add(str_part, delimiter, i)`
+  - `detect_delimiter` (function, line 1607) `def detect_delimiter(foo_bar)`
+  - `transform` (function, line 1626) `def transform(parts, delimiter, casing)`
+  - `handle` (function, line 1656) `def handle(input_str)`
+  - `get_users_dic` (function, line 1685) `def get_users_dic()`
+  - `get_hash` (function, line 1717) `def get_hash(dir)`
+  - `is_digit` (function, line 1757) `def is_digit(the_digit)`
+  - `crack_password` (function, line 1768) `def crack_password(crypttext)`
+  - `get_terminal_size` (function, line 1807) `def get_terminal_size()`
+  - `halp` (function, line 1815) `def halp()`
+  - `ensure_tmux_session` (function, line 1859) `def ensure_tmux_session(session_name)`
+  - `wrapper` (function, line 397) `def wrapper(self)`
+  - `send_request` (function, line 1481) `def send_request(raw_url)`
+  - `handle_forms` (function, line 1512) `def handle_forms(content, url)`
+- Imported by: `app.py`
