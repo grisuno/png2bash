@@ -1,8 +1,8 @@
 # Subsystem: root
 
 ## app.py
-- Doc: Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]com Fecha de creación...
 - Layer: utility
+- Doc: banner.py  Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]com Fecha de creación: 09/06/2024 Lice
 - Language: py
 - Symbols:
   - `image_to_bash` (function, line 27) `def image_to_bash(image_path, image_res)`
@@ -15,8 +15,8 @@
 - Language: sh
 
 ## utils.py
-- Doc: Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]com Fecha de creación...
 - Layer: utility
+- Doc: utils.py  Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]com Fecha de creación: 09/06/2024 Licen
 - Language: py
 - Symbols:
   - `parse_ip_mac` (function, line 128) `def parse_ip_mac(input_string)`

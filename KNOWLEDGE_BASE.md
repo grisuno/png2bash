@@ -12,7 +12,7 @@
 **Total Files Parsed:** 3 | **Total Symbols Extracted:** 72 | **Total Imports:** 36
  | **Resolved Imports:** 1
 
-<!-- ranking_model: v1.0 | weights: {ppr:0.45,auth:0.2,test:0.15,doc:0.1,fresh:0.1} | alpha:0.85 | commit:1e0fd0b | date:2026-07-18 -->
+<!-- ranking_model: v1.0 | weights: {ppr:0.45,auth:0.2,test:0.15,doc:0.1,fresh:0.1} | alpha:0.85 | commit:05a4468 | date:2026-07-18 -->
 
 
 ## Table of Contents
@@ -28,13 +28,12 @@
 9. [Change Impact Analysis](#change-impact-analysis)
 10. [Suggested Linting Rules](#suggested-linting-rules)
 11. [Dataflow Analysis](#dataflow-analysis)
-12. [Concept Graph](#concept-graph)
-13. [Orphans](#orphans)
-14. [Query Recipes](#query-recipes)
-15. [Structural Knowledge Map](#structural-knowledge-map)
-16. [UML Class Diagram](#uml-class-diagram)
-17. [Code Property Graph](#code-property-graph)
-18. [Architecture Reference](#architecture-reference)
+12. [Orphans](#orphans)
+13. [Query Recipes](#query-recipes)
+14. [Structural Knowledge Map](#structural-knowledge-map)
+15. [UML Class Diagram](#uml-class-diagram)
+16. [Code Property Graph](#code-property-graph)
+17. [Architecture Reference](#architecture-reference)
     - [PY (2 files)](#py-2-files)
     - [SH (1 files)](#sh-1-files)
 
@@ -163,94 +162,6 @@ Procedural intra-function dataflow findings (zero tokens, regex-based heuristics
 | File | Function | Line | Kind | Variable | Description |
 |------|----------|------|------|----------|-------------|
 | `app.py` | `image_to_bash` | 29 | `UNCHECKED_ALLOC` | `img` | Result of allocator stored in `img` is never checked against NULL. |
-
----
-
-## Concept Graph
-
-Semantic second-brain layer: nouns are concept nodes, verbs are edges. Each noun maps atomically to a file set (EXTRACTED); each verb aggregates structural imports, calls, and inherits into consumes, invokes, extends, depends_on, or bridges (INFERRED).
-
-**29 concepts, 100 relations.**
-
-| Concept | Files | Mentions |
-|---------|-------|----------|
-| `list` | 2 | 36 |
-| `files` | 2 | 13 |
-| `framework` | 2 | 9 |
-| `archivo` | 2 | 8 |
-| `com` | 2 | 8 |
-| `lazy` | 2 | 8 |
-| `own` | 2 | 8 |
-| `banner` | 2 | 6 |
-| `red` | 2 | 4 |
-| `dot` | 2 | 3 |
-| `team` | 2 | 3 |
-| `autor` | 2 | 2 |
-| `bash` | 2 | 2 |
-| `contiene` | 2 | 2 |
-| `correo` | 2 | 2 |
-| `creaci` | 2 | 2 |
-| `definici` | 2 | 2 |
-| `descripci` | 2 | 2 |
-| `electr` | 2 | 2 |
-| `este` | 2 | 2 |
-| `fecha` | 2 | 2 |
-| `gica` | 2 | 2 |
-| `gmail` | 2 | 2 |
-| `gpl` | 2 | 2 |
-| `gris` | 2 | 2 |
-| `grisiscomeback` | 2 | 2 |
-| `iscomeback` | 2 | 2 |
-| `licencia` | 2 | 2 |
-| `nico` | 2 | 2 |
-
-### Verb Edges
-
-| Source | Verb | Target | Strength | Evidence |
-|--------|------|--------|----------|----------|
-| `archivo` | `depends_on` | `autor` | 1.00 | 1 |
-| `archivo` | `depends_on` | `banner` | 1.00 | 1 |
-| `archivo` | `depends_on` | `bash` | 1.00 | 1 |
-| `archivo` | `depends_on` | `com` | 1.00 | 1 |
-| `archivo` | `depends_on` | `contiene` | 1.00 | 1 |
-| `archivo` | `depends_on` | `correo` | 1.00 | 1 |
-| `archivo` | `depends_on` | `creaci` | 1.00 | 1 |
-| `archivo` | `depends_on` | `definici` | 1.00 | 1 |
-| `archivo` | `depends_on` | `descripci` | 1.00 | 1 |
-| `archivo` | `depends_on` | `dot` | 1.00 | 1 |
-| `archivo` | `depends_on` | `electr` | 1.00 | 1 |
-| `archivo` | `depends_on` | `este` | 1.00 | 1 |
-| `archivo` | `depends_on` | `fecha` | 1.00 | 1 |
-| `archivo` | `depends_on` | `files` | 1.00 | 1 |
-| `archivo` | `depends_on` | `framework` | 1.00 | 1 |
-| `archivo` | `depends_on` | `gica` | 1.00 | 1 |
-| `archivo` | `depends_on` | `gmail` | 1.00 | 1 |
-| `archivo` | `depends_on` | `gpl` | 1.00 | 1 |
-| `archivo` | `depends_on` | `gris` | 1.00 | 1 |
-| `archivo` | `depends_on` | `grisiscomeback` | 1.00 | 1 |
-| `archivo` | `depends_on` | `iscomeback` | 1.00 | 1 |
-| `archivo` | `depends_on` | `lazy` | 1.00 | 1 |
-| `archivo` | `depends_on` | `licencia` | 1.00 | 1 |
-| `archivo` | `depends_on` | `list` | 1.00 | 1 |
-| `archivo` | `depends_on` | `nico` | 1.00 | 1 |
-| `archivo` | `depends_on` | `own` | 1.00 | 1 |
-| `archivo` | `depends_on` | `red` | 1.00 | 1 |
-| `archivo` | `depends_on` | `team` | 1.00 | 1 |
-| `autor` | `depends_on` | `archivo` | 1.00 | 1 |
-| `autor` | `depends_on` | `banner` | 1.00 | 1 |
-
-### Dialectic Prompts
-
-- Thesis: `archivo` centralizes 2 files; Antithesis: `autor` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
-- Thesis: `archivo` centralizes 2 files; Antithesis: `banner` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
-- Thesis: `archivo` centralizes 2 files; Antithesis: `bash` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
-- Thesis: `archivo` centralizes 2 files; Antithesis: `com` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
-- Thesis: `archivo` centralizes 2 files; Antithesis: `contiene` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
-- Thesis: `archivo` centralizes 2 files; Antithesis: `correo` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
-- Thesis: `archivo` centralizes 2 files; Antithesis: `creaci` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
-- Thesis: `archivo` centralizes 2 files; Antithesis: `definici` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
-- Thesis: `archivo` centralizes 2 files; Antithesis: `descripci` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
-- Thesis: `archivo` centralizes 2 files; Antithesis: `dot` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
 
 ---
 

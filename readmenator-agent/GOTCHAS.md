@@ -4,15 +4,9 @@
 
 These files have the most connections. Changes here have high blast radius.
 
-- `utils.py` (score: 8.90, imported by 1 files)
+- `utils.py` (score: 8.90)
 - `app.py` (score: 2.30)
 - `install.sh` (score: 0.00)
-
-## Blast Radius (change impact)
-
-Editing these files can break the listed number of dependents. Run their tests after any change.
-
-- `utils.py` -- 1 direct, 1 total dependents
 
 ## Hotspots (complexity + centrality)
 
