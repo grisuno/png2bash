@@ -1,0 +1,79 @@
+# API
+
+## app.py
+Depends on: `utils.py`
+- `image_to_bash` (function) `app.py:27` `def image_to_bash(image_path, image_res)`
+- `list_png_files` (function) `app.py:44` `def list_png_files()`
+- `main` (function) `app.py:54` `def main()`
+
+## utils.py
+Imported by: `app.py`
+- `parse_ip_mac` (function) `utils.py:128` `def parse_ip_mac(input_string)` -- Extracts IP and MAC addresses from a formatted input string using a regular expression.
+- `create_arp_packet` (function) `utils.py:149` `def create_arp_packet(src_mac, src_ip, dst_ip, dst_mac)` -- Constructs an ARP packet with the given source and destination IP and MAC addresses.
+- `send_packet` (function) `utils.py:186` `def send_packet(packet, iface)` -- Sends a raw ARP packet over the specified network interface.
+- `load_version` (function) `utils.py:203` `def load_version()` -- Load the version number from the 'version.json' file.
+- `print_error` (function) `utils.py:224` `def print_error(error)` -- Prints an error message to the console.
+- `print_msg` (function) `utils.py:239` `def print_msg(msg)` -- Prints a message to the console.
+- `print_warn` (function) `utils.py:255` `def print_warn(warn)` -- Prints a warning message to the console.
+- `signal_handler` (function) `utils.py:271` `def signal_handler(sig, frame)` -- Handles signals such as Control + C and shows a message on how to exit.
+- `check_rhost` (function) `utils.py:298` `def check_rhost(rhost)` -- Checks if the remote host (rhost) is defined and shows an error message if it is not.
+- `check_lhost` (function) `utils.py:320` `def check_lhost(lhost)` -- Checks if the local host (lhost) is defined and shows an error message if it is not.
+- `check_lport` (function) `utils.py:342` `def check_lport(lport)` -- Checks if the local port (lport) is defined and shows an error message if it is not.
+- `is_binary_present` (function) `utils.py:364` `def is_binary_present(binary_name)` -- Internal function to verify if a binary is present on the operating system.
+- `handle_multiple_rhosts` (function) `utils.py:381` `def handle_multiple_rhosts(func)` -- Internal function to handle multiple remote hosts (rhost) for operations.
+- `wrapper` (function) `utils.py:397` `def wrapper(self)` -- internal wrapper of internal function to implement multiples rhost to operate.
+- `check_sudo` (function) `utils.py:415` `def check_sudo()` -- Checks if the script is running with superuser (sudo) privileges, and if not, restarts the script with sudo privileges.
+- `activate_virtualenv` (function) `utils.py:435` `def activate_virtualenv(venv_path)` -- Activates a virtual environment and starts an interactive shell.
+- `parse_proc_net_file` (function) `utils.py:460` `def parse_proc_net_file(file_path)` -- Internal function to parse a /proc/net file and extract network ports.
+- `get_open_ports` (function) `utils.py:504` `def get_open_ports()` -- Internal function to get open TCP and UDP ports on the operating system.
+- `find_credentials` (function) `utils.py:523` `def find_credentials(directory)` -- Searches for potential credentials in files within the specified directory.
+- `rotate_char` (function) `utils.py:555` `def rotate_char(c, shift)` -- Internal function to rotate characters for ROT cipher.
+- `get_network_info` (function) `utils.py:576` `def get_network_info()` -- Retrieves network interface information with their associated IP addresses.
+- `getprompt` (function) `utils.py:608` `def getprompt()` -- Generate a command prompt string with network information and user status.
+- `copy2clip` (function) `utils.py:644` `def copy2clip(text)` -- Copia el texto proporcionado al portapapeles usando xclip.
+- `clean_output` (function) `utils.py:663` `def clean_output(output)` -- Elimina secuencias de escape de color y otros caracteres no imprimibles.
+- `teclado_usuario` (function) `utils.py:675` `def teclado_usuario(filename)` -- Procesa un archivo para extraer y mostrar caracteres desde secuencias de escritura específicas.
+- `salida_strace` (function) `utils.py:712` `def salida_strace(filename)` -- Lee un archivo, extrae texto desde secuencias de escritura y muestra el contenido reconstruido.
+- `exploitalert` (function) `utils.py:748` `def exploitalert(content)` -- Process and display results from ExploitAlert.
+- `packetstormsecurity` (function) `utils.py:791` `def packetstormsecurity(content)` -- Process and display results from PacketStorm Security.
+- `nvddb` (function) `utils.py:833` `def nvddb(content)` -- Process and display results from the National Vulnerability Database.
+- `find_ss` (function) `utils.py:876` `def find_ss(keyword)` -- Find CVEs in the National Vulnerability Database based on a keyword.
+- `find_ea` (function) `utils.py:901` `def find_ea(keyword)` -- Find exploits in ExploitAlert based on a keyword.
+- `find_ps` (function) `utils.py:928` `def find_ps(keyword)` -- Find exploits in PacketStorm Security based on a keyword.
+- `xor_encrypt_decrypt` (function) `utils.py:952` `def xor_encrypt_decrypt(data, key)` -- Encrypts or decrypts data using XOR encryption with the provided key.
+- `run` (function) `utils.py:977` `def run(command)` -- Executes a shell command using the subprocess module, capturing its output.
+- `is_exist` (function) `utils.py:1019` `def is_exist(file)` -- Check if a file exists.
+- `get_domain` (function) `utils.py:1047` `def get_domain(url)` -- Extracts the domain from a given URL.
+- `generate_certificates` (function) `utils.py:1063` `def generate_certificates()` -- Generates a certificate authority (CA), client certificate, and client key.
+- `generate_emails` (function) `utils.py:1106` `def generate_emails(full_name, domain)` -- Generate email permutations based on the provided full name and domain.
+- `clean_url` (function) `utils.py:1164` `def clean_url(host)` -- Verifica si el último carácter es una barra y, de ser así, la elimina
+- `random_string` (function) `utils.py:1170` `def random_string(length)` -- Generates a random alphanumeric string.
+- `generate_http_req` (function) `utils.py:1175` `def generate_http_req(host, port, uri, custom_header, cmd)` -- Generates an HTTP request with the Shellshock payload.
+- `format_openssh_key` (function) `utils.py:1202` `def format_openssh_key(raw_key)` -- Formats a raw OpenSSH private key string to the correct OpenSSH format.
+- `format_rsa_key` (function) `utils.py:1233` `def format_rsa_key(raw_key)` -- Formats a raw RSA private key string to the correct PEM format.
+- `is_package_installed` (function) `utils.py:1263` `def is_package_installed(package_name)` -- Check if a Python package is installed.
+- `extract` (function) `utils.py:1273` `def extract(string, extract_flag)` -- Extracts and processes specific hexadecimal sequences from a string based on a flag.
+- `clean_html` (function) `utils.py:1296` `def clean_html(html_string)` -- Remove HTML tags from a string.
+- `run_command` (function) `utils.py:1309` `def run_command(command)` -- Run a command, print output in real-time, and store the output in a variable.
+- `generate_random_cve_id` (function) `utils.py:1357` `def generate_random_cve_id()` -- Generates a random CVE (Common Vulnerabilities and Exposures) ID.
+- `get_credentials` (function) `utils.py:1372` `def get_credentials(file)` -- Searches for credential files with the pattern 'credentials*.txt' and allows the user to select one.
+- `obfuscate_payload` (function) `utils.py:1411` `def obfuscate_payload(payload)` -- Obfuscates a payload string by converting its characters into hexadecimal format, with additional comments for every...
+- `read_payloads` (function) `utils.py:1435` `def read_payloads(file_path)` -- Reads a file containing payloads and returns a list of properly formatted strings.
+- `inject_payloads` (function) `utils.py:1456` `def inject_payloads(urls, payload_url, request_timeout)` -- Sends HTTP requests to a list of URLs with injected payloads for testing XSS vulnerabilities.
+- `send_request` (function) `utils.py:1481` `def send_request(raw_url)`
+- `handle_forms` (function) `utils.py:1512` `def handle_forms(content, url)`
+- `prompt` (function) `utils.py:1544` `def prompt(label, default)` -- Return the prompt in the function do_xss
+- `is_lower` (function) `utils.py:1551` `def is_lower(char)` -- Checks if a character is lowercase.
+- `is_upper` (function) `utils.py:1564` `def is_upper(char)` -- Checks if a character is uppercase.
+- `is_mixed` (function) `utils.py:1577` `def is_mixed(s)` -- Determines if a string contains both lowercase and uppercase characters.
+- `add` (function) `utils.py:1590` `def add(str_part, delimiter, i)` -- Adds a delimiter between string parts if it's not the first part.
+- `detect_delimiter` (function) `utils.py:1607` `def detect_delimiter(foo_bar)` -- Detects the delimiter used in the input string (e.g., "-", "_", ".").
+- `transform` (function) `utils.py:1626` `def transform(parts, delimiter, casing)` -- Transforms a list of string parts based on the chosen casing style.
+- `handle` (function) `utils.py:1656` `def handle(input_str)` -- Splits the input string into parts based on delimiters or mixed casing.
+- `get_users_dic` (function) `utils.py:1685` `def get_users_dic()` -- List all .txt files in the 'sessions/' directory and prompt the user to select one by number.
+- `get_hash` (function) `utils.py:1717` `def get_hash(dir)` -- Searches for hash files with the pattern 'hash*.txt' and allows the user to select one.
+- `is_digit` (function) `utils.py:1757` `def is_digit(the_digit)` -- Check if the given character is a digit.
+- `crack_password` (function) `utils.py:1768` `def crack_password(crypttext)` -- Crack a Cisco Type 7 password.
+- `get_terminal_size` (function) `utils.py:1807` `def get_terminal_size()`
+- `halp` (function) `utils.py:1815` `def halp()` -- Display the help panel for the LazyOwn RedTeam Framework.
+- `ensure_tmux_session` (function) `utils.py:1859` `def ensure_tmux_session(session_name)` -- Ensure that a tmux session is active.

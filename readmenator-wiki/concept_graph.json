@@ -1,0 +1,1279 @@
+{
+  "concepts": [
+    {
+      "name": "list",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 36,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "files",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 13,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "framework",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "archivo",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "com",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "lazy",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "own",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "banner",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "red",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "dot",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "team",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "autor",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "bash",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "contiene",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "correo",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "creaci",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "definici",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "descripci",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "electr",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "este",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "fecha",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "gica",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "gmail",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "gpl",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "gris",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "grisiscomeback",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "iscomeback",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "licencia",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "nico",
+      "files": [
+        "app.py",
+        "utils.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    }
+  ],
+  "relations": [
+    {
+      "source": "archivo",
+      "target": "autor",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "banner",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "bash",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "com",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "contiene",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "correo",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "creaci",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "definici",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "descripci",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "dot",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "electr",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "este",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "fecha",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "files",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "framework",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "gica",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "gmail",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "gpl",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "gris",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "grisiscomeback",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "iscomeback",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "lazy",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "licencia",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "list",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "nico",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "own",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "red",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "archivo",
+      "target": "team",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "archivo",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "banner",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "bash",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "com",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "contiene",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "correo",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "creaci",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "definici",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "descripci",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "dot",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "electr",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "este",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "fecha",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "files",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "framework",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "gica",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "gmail",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "gpl",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "gris",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "grisiscomeback",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "iscomeback",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "lazy",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "licencia",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "list",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "nico",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "own",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "red",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "autor",
+      "target": "team",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "archivo",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "autor",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "bash",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "com",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "contiene",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "correo",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "creaci",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "definici",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "descripci",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "dot",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "electr",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "este",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "fecha",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "files",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "framework",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "gica",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "gmail",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "gpl",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "gris",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "grisiscomeback",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "iscomeback",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "lazy",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "licencia",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "list",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "nico",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "own",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "red",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "banner",
+      "target": "team",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "bash",
+      "target": "archivo",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "bash",
+      "target": "autor",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "bash",
+      "target": "banner",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "bash",
+      "target": "com",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "bash",
+      "target": "contiene",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "bash",
+      "target": "correo",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "bash",
+      "target": "creaci",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "bash",
+      "target": "definici",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "bash",
+      "target": "descripci",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "bash",
+      "target": "dot",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "bash",
+      "target": "electr",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "bash",
+      "target": "este",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "bash",
+      "target": "fecha",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "bash",
+      "target": "files",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "bash",
+      "target": "framework",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    },
+    {
+      "source": "bash",
+      "target": "gica",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->utils.py"
+      ]
+    }
+  ],
+  "dialectic": [
+    "Thesis: `archivo` centralizes 2 files; Antithesis: `autor` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `archivo` centralizes 2 files; Antithesis: `banner` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `archivo` centralizes 2 files; Antithesis: `bash` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `archivo` centralizes 2 files; Antithesis: `com` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `archivo` centralizes 2 files; Antithesis: `contiene` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `archivo` centralizes 2 files; Antithesis: `correo` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `archivo` centralizes 2 files; Antithesis: `creaci` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `archivo` centralizes 2 files; Antithesis: `definici` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `archivo` centralizes 2 files; Antithesis: `descripci` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `archivo` centralizes 2 files; Antithesis: `dot` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?"
+  ]
+}
